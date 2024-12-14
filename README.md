@@ -24,48 +24,34 @@ MongoDB: You can use a local MongoDB installation or a cloud-based solution like
 Google Maps API Key: Obtain an API key from the Google Cloud Console.
 Installation Steps
 Clone the Repository:
-
-bash
-Copy code
 git clone https://github.com/yourusername/vehicle-tracking-app.git
 cd vehicle-tracking-app
 Install Backend Dependencies:
 
 Navigate to the backend directory:
-bash
-Copy code
-cd backend
 Install required dependencies:
-bash
-Copy code
 npm install
 Install Frontend Dependencies:
 
 Navigate to the frontend directory:
-bash
-Copy code
+
 cd frontend
 Install required dependencies:
-bash
-Copy code
+
 npm install
 Configure Environment Variables:
 
 In the backend directory, create a .env file with the following:
-bash
-Copy code
+
 MONGO_URI=your_mongodb_connection_string
 GOOGLE_MAPS_API_KEY=your_google_maps_api_key
 Run the Backend Server:
 
-bash
-Copy code
+
 cd backend
 npm start
 Run the Frontend Application:
 
-bash
-Copy code
 cd frontend
 npm start
 Access the Application:
@@ -88,14 +74,10 @@ Run tests for both the frontend and backend:
 
 Backend Tests:
 
-bash
-Copy code
 cd backend
 npm test
 Frontend Tests:
 
-bash
-Copy code
 cd frontend
 npm test
 Contributing
