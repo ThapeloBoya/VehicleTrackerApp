@@ -1,4 +1,5 @@
 Vehicle Tracking App
+
 A comprehensive and easy-to-use vehicle tracking system that allows real-time tracking of vehicles and displays the last 10 recorded locations. This app is designed to monitor vehicle movements and ensure that the vehicle's current position is always accessible.
 
 Features
