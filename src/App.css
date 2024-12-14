@@ -1,0 +1,128 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.dashboard-container {
+  display: flex;
+  justify-content: space-between;
+  height: 80vh;
+  padding: 20px;
+}
+
+.vehicle-list {
+  background: #f4f4f4;
+  padding: 10px;
+  border-radius: 8px;
+  width: 30%;
+  max-height: fit-content;
+  overflow-y: auto;
+ 
+}
+
+.vehicle-list h2 {
+  margin-bottom: 10px;
+}
+
+.vehicle-item {
+  padding: 10px;
+  margin-bottom: 8px;
+  background-color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  
+}
+
+.vehicle-item:hover {
+  background-color: #e0e0e0;
+}
+
+.map-container {
+  width: 70%;
+  height: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Add a subtle bottom box shadow with a slight blur */
+}
+
+
+.vehicle-filter input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+}
+
+.loading-spinner, .error-message {
+  text-align: center;
+  font-size: 1.5em;
+  padding: 20px;
+}
+
+@media (min-width: 768px) {
+  .dashboard-container {
+    flex-direction: row;
+  }
+
+  .vehicle-list {
+    width: 250px;
+    height: 100%;
+  }
+
+  .map-container {
+    width: calc(100% - 250px);
+  }
+}
+
+@media (max-width: 400px) {
+  .dashboard-container {
+    flex-direction: column;
+  }
+
+  .vehicle-list {
+    width: 100%;
+    height: 70%;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow-y: auto;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .map-container {
+    width: 100%;
+    height: 30%;
+  }
+}
+
+.spinner {
+  font-size: 18px;
+  text-align: center;
+  margin-top: 10px;
+  color: #333;
+}
+
+.error {
+  color: red;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 10px;
+}
+.header {
+  display: flex;
+  align-items: center; /* Vertically center the content */
+  justify-content: flex-start; /* Align items to the left */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle bottom box shadow */
+}
+
+.logo {
+  width: 50px; /* Adjust the size of the logo as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 15px; /* Add some space between the logo and the text */
+}
+
+.title-heading {
+  font-size: 24px; /* Adjust the font size as needed */
+  margin: 0; /* Remove any default margin */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
