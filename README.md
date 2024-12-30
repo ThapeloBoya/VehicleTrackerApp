@@ -6,6 +6,9 @@ A vehicle tracking dashboard built with React and Leaflet, allowing users to vis
 
 You can view the live demo of the app here: [Vehicle Tracking Dashboard Demo](https://your-deployed-link.com)
 
+![Vehicle Tracking App Demo](public/vehicle-tracking.png)
+
+
 ## Features
 
 - **Real-Time Vehicle Tracking**: Display the current location of vehicles on a map using markers.
