@@ -4,7 +4,7 @@ A vehicle tracking dashboard built with React and Leaflet, allowing users to vis
 
 ## Demo
 
-You can view the live demo of the app here: [Vehicle Tracking Dashboard Demo](https://your-deployed-link.com)
+You can view the live demo of the app here: [Vehicle Tracking Dashboard Demo](https://vehicle-tracker-ob6vteyrl-foxsugarprotonmes-projects.vercel.app/)
 
 ![Vehicle Tracking App Demo](public/vehicle-tracking.png)
 
